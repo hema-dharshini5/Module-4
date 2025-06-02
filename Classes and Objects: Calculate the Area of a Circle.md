@@ -12,8 +12,21 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 
-Add code here
+```
+import math
+class Saveetha:
+    def __init__(self, r):
+        self.area = math.pi * (r ** 2) 
+    def slot(self):
+        print("Area of circle:", round(self.area, 2))
+r = float(input())
+res = Saveetha(r)  
+res.slot()
+```
+
 
 ## Output
-
+![image](https://github.com/user-attachments/assets/b496f633-b309-425a-b033-e9710efc5ee1)
 ## Result
+Thus,the program has been executed successfully.
+
